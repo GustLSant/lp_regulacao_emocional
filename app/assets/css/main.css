@@ -1,0 +1,15 @@
+:root {
+    --color-blue: #1D292F;
+    --color-dark-green: #3E4B3F;
+    --color-light-green: #9EA38B;
+    --color-orange: #B8643E;
+    --color-dark-beige: #E0C9B1;
+    --color-light-beige: #F3EADE;
+}
+
+.text-blue        { color: var(--color-blue);        }
+.text-dark-green  { color: var(--color-dark-green);  }
+.text-light-green { color: var(--color-light-green); }
+.text-orange      { color: var(--color-orange);      }
+.text-dark-beige  { color: var(--color-dark-beige);  }
+.text-light-beige { color: var(--color-light-beige); }

@@ -15,7 +15,8 @@
 }
 
 :root {
-    --color-blue: #1D292F;
+    --color-light-blue: #344851;
+    --color-dark-blue: #1D292F;
     --color-dark-green: #3E4B3F;
     --color-light-green: #9EA38B;
     --color-orange: #B8643E;
@@ -23,9 +24,31 @@
     --color-light-beige: #F3EADE;
 }
 
-.text-blue        { color: var(--color-blue);        }
+body {
+    background-color: var(--color-light-beige);
+}
+
+.text-light-blue  { color: var(--color-light-blue);  }
+.text-dark-blue   { color: var(--color-dark-blue);   }
 .text-dark-green  { color: var(--color-dark-green);  }
 .text-light-green { color: var(--color-light-green); }
 .text-orange      { color: var(--color-orange);      }
 .text-dark-beige  { color: var(--color-dark-beige);  }
 .text-light-beige { color: var(--color-light-beige); }
+
+.bg-light-blue  { background-color: var(--color-light-blue);  }
+.bg-dark-blue   { background-color: var(--color-dark-blue);   }
+.bg-dark-green  { background-color: var(--color-dark-green);  }
+.bg-light-green { background-color: var(--color-light-green); }
+.bg-orange      { background-color: var(--color-orange);      }
+.bg-dark-beige  { background-color: var(--color-dark-beige);  }
+.bg-light-beige { background-color: var(--color-light-beige); }
+
+.text-shadow-none { text-shadow: none; }
+.text-shadow-light { text-shadow: 2px 2px 2px rgba(0,0,0, 0.1); }
+
+.absolute-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}

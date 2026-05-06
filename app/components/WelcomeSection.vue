@@ -26,6 +26,10 @@
             <p class="text-lg leading-tight lg:text-2xl">Capacitação para profissionais que desejam transformar a vida dos seus pacientes com mais <strong class="font-semibold">precisão, segurança e profundidade clínica</strong></p>
         </div>
 
+        <Button color="orange" end-icon-name="mdi:arrow-right" class="self-start bg-orange">
+            Inscrever-se
+        </Button>
+
         <div class="continue-badge flex flex-col items-center justify-center gap-1 pb-2 text-white">
             <div class="continue-bg bg-white/20 rounded-full h-9 p-1">
                 <Icon name="mdi:chevron-down" size="28" class="continue-arrow" />

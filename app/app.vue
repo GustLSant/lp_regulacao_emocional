@@ -8,6 +8,8 @@
 	<div class="app w-screen max-w-[1400px] m-auto h-screen overflow-auto flex flex-col">
 		<WelcomeSection />
 		<FirstSection />
+		<SecondSection />
+		<ThirdSection />
 	</div>
 </template>
 

@@ -44,6 +44,8 @@ body {
 .bg-dark-beige  { background-color: var(--color-dark-beige);  }
 .bg-light-beige { background-color: var(--color-light-beige); }
 
+.border-orange { border-color: var(--color-orange); }
+
 .text-shadow-none { text-shadow: none; }
 .text-shadow-light { text-shadow: 2px 2px 2px rgba(0,0,0, 0.1); }
 

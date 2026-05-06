@@ -1,20 +1,15 @@
 <script setup lang="ts">
-import Button from './Button.vue';
+    import Button from './common/Button.vue';
+    import Header from './common/Header.vue';
 
 
 </script>
 
 
 <template>
-    <section class="p-20 bg-white flex flex-col items-center justify-center gap-8">
+    <section class="flex flex-col items-center justify-center gap-8 p-20 bg-white">
         
-        <div class="flex items-center gap-4 self-stretch text-center">
-            <div class="grow" />
-            <div class="grow max-w-[100px] h-0.5 bg-orange" />
-                <p class="text-2xl font-playfair font-semibold text-orange text-shadow-light tracking-[4px]">INFORMAÇÕES DO CURSO</p>
-            <div class="grow max-w-[100px] h-0.5 bg-orange" />
-            <div class="grow" />
-        </div>
+        <Header>INFORMAÇÕES DO CURSO</Header>
 
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis voluptatibus hic nihil illum accusamus porro harum corrupti repellat tenetur!</p>
 
@@ -24,8 +19,8 @@ import Button from './Button.vue';
 
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis voluptatibus hic nihil illum accusamus porro harum corrupti repellat tenetur!</p>
 
-        <Button icon-name="mdi:cart">
-            Adiquirir Agora
+        <Button color="orange" end-icon-name="mdi:arrow-right" class="bg-orange">
+            Inscrever-se
         </Button>
 
     </section>

@@ -5,7 +5,7 @@
 
 <template>
     <div class="flex-1 flex items-center gap-1 max-w-[300px]">
-        <Icon :name="props.iconName" size="48" class="text-orange" />
+        <Icon :name="props.iconName" size="48" class="shrink-0 text-orange" />
 
         <div class="flex flex-col gap-0.5">
             <p class="leading-[18px]">{{ props.title }}</p>

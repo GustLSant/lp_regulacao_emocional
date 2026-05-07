@@ -1,6 +1,6 @@
 <script setup lang="ts">
     import Header from './common/Header.vue';
-import TeacherCard from './teachersSection/TeacherCard.vue';
+    import TeacherCard from './teachersSection/TeacherCard.vue';
 
 
 </script>

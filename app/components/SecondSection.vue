@@ -13,7 +13,7 @@
         <p class="px-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nobis recusandae, illo rerum sapiente consequuntur perferendis hic magnam ab eius quasi suscipit, velit ex animi pariatur officia facere aperiam quas.</p>
 
 
-        <div class="flex items-center justify-evenly gap-4 py-8 px-20 bg-dark-blue text-white">
+        <div class="flex items-center justify-evenly flex-wrap gap-4 py-8 px-20 bg-dark-blue text-white">
             <CardSecond
                 icon-name="material-symbols:accessibility-rounded"
                 title="Baseado em evidências"

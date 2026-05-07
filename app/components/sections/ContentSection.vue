@@ -15,10 +15,10 @@
         'Desregulação Emocional e Transtornos de Personalidade',
         'Desregulação Emocional e Transtornos do Humor',
         'Emoções',
+        'Estratégias de Enfrentamento',
     ]
 
     const modules_2 = [
-        'Estratégias de Enfrentamento',
         'Grupo de Habilidades em Regulação Emocional',
         'Habilidades em Regulação Emocional',
         'Intervenção transdiagnóstica',

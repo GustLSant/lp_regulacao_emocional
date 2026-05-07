@@ -1,6 +1,6 @@
 <script setup lang="ts">
     import Header from '../common/Header.vue';
-    import HighlightCard from '../HighlightCard.vue';
+    import DetailsCard from '../DetailsCard.vue';
 
 </script>
 
@@ -14,32 +14,32 @@
 
 
         <div class="flex items-center justify-evenly flex-wrap gap-4 gap-y-8 py-8 px-12 lg:px-20 bg-dark-blue text-white">
-            <HighlightCard
+            <DetailsCard
                 icon-name="streamline:global-learning"
                 title="Professores de alta qualidade"
             >
                 <p class="leading-tight text-sm font-light opacity-60">O curso conta com 15 professores altamente qualificados, incluindo diversos <strong class="font-semibold">mestres</strong> e <strong class="font-semibold">doutores</strong></p>
-            </HighlightCard>
+            </DetailsCard>
 
-            <HighlightCard
+            <DetailsCard
                 icon-name="mdi:certificate-outline"
                 title="Certificado incluso"
                 description="O curso possui um certificado de 60 horas e conta com um programa completo para te guiar nesse update em sua prática clínica"
             />
 
-            <!-- <HighlightCard
+            <!-- <DetailsCard
                 icon-name="material-symbols:accessibility-rounded"
                 title="Para profissionais e estudantes"
                 description="O curso tem como público alvo Profissionais e Estudantes de Psicologia e Psiquiatria"
             /> -->
 
-            <HighlightCard
+            <DetailsCard
                 icon-name="mdi:school-outline"
                 title="Formação completa e atualizada"
                 description="23 módulos sobre regulação emocional, intervenções clínicas e diferentes contextos de atuação"
             />
 
-            <HighlightCard
+            <DetailsCard
                 icon-name="mdi:book-outline"
                 title="Conteúdo multiprofissional"
                 description="O curso possui um caráter transteórico que permite que profissionais de diferentes afinidades clínicas possam aproveitar seu conteúdo"

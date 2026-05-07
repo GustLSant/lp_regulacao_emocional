@@ -1,5 +1,8 @@
 <script setup lang="ts">
-	import WelcomeSection from './components/WelcomeSection.vue';
+	import WelcomeSection from './components/sections/WelcomeSection.vue';
+	import FirstSection from './components/sections/FirstSection.vue';
+	import SecondSection from './components/sections/SecondSection.vue';
+	import ThirdSection from './components/sections/ThirdSection.vue';
 
 </script>
 

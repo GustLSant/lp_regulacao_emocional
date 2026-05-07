@@ -4,9 +4,9 @@
 
 
 <template>
-    <div class="rounded-tl-xl rounded-br-xl border border-orange p-1.5">
-        <div class="p-4 text-white bg-orange rounded-tl-xl rounded-br-xl shadow-md">
-            <p>{{ props.name }}</p>
+    <div class="flex-1 rounded-tl-xl rounded-br-xl border border-orange p-1.5">
+        <div class="p-4 text-white text-center bg-orange rounded-tl-xl rounded-br-xl shadow-md">
+            <p class="leading-tight">{{ props.name }}</p>
         </div>
     </div>
 </template>

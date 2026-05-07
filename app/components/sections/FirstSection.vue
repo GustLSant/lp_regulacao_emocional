@@ -1,13 +1,13 @@
 <script setup lang="ts">
-    import Button from './common/Button.vue';
-    import Header from './common/Header.vue';
+    import Button from '../common/Button.vue';
+    import Header from '../common/Header.vue';
 
 
 </script>
 
 
 <template>
-    <section class="flex flex-col items-center justify-center gap-8 p-20 bg-white">
+    <section class="flex flex-col items-center justify-center gap-8 py-20 px-4 lg:px-20 bg-white">
         
         <Header>INFORMAÇÕES DO CURSO</Header>
 

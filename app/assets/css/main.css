@@ -44,6 +44,8 @@ body {
 .bg-dark-beige  { background-color: var(--color-dark-beige);  }
 .bg-light-beige { background-color: var(--color-light-beige); }
 
+.colored-section-bg { background-color: rgba(236, 222, 212, 0.75); }
+
 .border-orange { border-color: var(--color-orange); }
 
 .text-shadow-none { text-shadow: none; }

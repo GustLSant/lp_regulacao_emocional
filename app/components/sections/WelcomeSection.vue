@@ -1,12 +1,12 @@
 <script setup lang="ts">
-    import Button from './common/Button.vue';
+    import Button from '../common/Button.vue';
 
     
 </script>
 
 
 <template>
-    <section class="min-h-screen relative flex flex-col gap-8 p-3 justify-center md:pl-[7.5%] bg-[rgba(224,201,177,0.3)] lg:bg-transparent">
+    <section class="min-h-screen relative flex flex-col gap-8 p-4 justify-center md:pl-[7.5%] bg-[rgba(224,201,177,0.3)] lg:bg-transparent">
 
         <div class="flex flex-col items-start">
             <p class="text-xl lg:text-3xl text-orange font-googleflex font-semibold tracking-[4px] lg:tracking-[8px]">CURSO</p>
@@ -64,10 +64,10 @@
             opacity: 0;
             transform: translateY(-10px);
         }
-        15% {
+        25% {
             opacity: 1;
         }
-        50% {
+        100% {
             opacity: 0;
             transform: translateY(10px);
         }

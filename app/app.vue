@@ -4,6 +4,7 @@
 	import SecondSection from './components/sections/SecondSection.vue';
 	import TeachersSection from './components/sections/TeachersSection.vue';
 	import ModulesSection from './components/sections/ModulesSection.vue';
+	import FaqSection from './components/sections/FaqSection.vue';
 </script>
 
 
@@ -14,6 +15,7 @@
 		<SecondSection />
 		<TeachersSection />
 		<ModulesSection />
+		<FaqSection />
 	</div>
 </template>
 

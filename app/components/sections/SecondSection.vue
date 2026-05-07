@@ -6,14 +6,14 @@
 
 
 <template>
-    <section class="flex flex-col items-stretch justify-center gap-8 py-20 colored-section-bg">
+    <section class="flex flex-col items-stretch justify-center gap-8 py-20 bg-light-beige/70">
 
         <Header>INFORMAÇÕES DO CURSO</Header>
 
         <p class="px-4 lg:px-20">O curso de Regulação Emocional da Afirmativa reúne aulas e atividades que possibilitam uma jornada sobre teoria e prática clínica em regulação emocional. O objetivo é que você passe a atuar de modo mais alinhado às necessidades dos seus clientes e com maior criticidade aos diversos modos interventivos, além de conhecer as ferramentas disponíveis para seu trabalho.</p>
 
 
-        <div class="flex items-center justify-evenly flex-wrap gap-4 py-8 px-20 bg-dark-blue text-white">
+        <div class="flex items-center justify-evenly flex-wrap gap-4 gap-y-8 py-8 px-12 lg:px-20 bg-dark-blue text-white">
             <HighlightCard
                 icon-name="streamline:global-learning"
                 title="Professores de alta qualidade"

@@ -35,33 +35,24 @@
 
 
 <template>
-    <section class="flex flex-col items-stretch gap-8 py-20 px-4 lg:px-20">
+    <section class="flex flex-col items-stretch gap-8 py-20 px-4 lg:px-20 bg-light-beige/70">
 
         <Header>CONTEÚDO DO CURSO</Header>
 
         <div class="rounded-tl-xl rounded-br-xl border border-white/40 p-2">
             <div class=" flex flex-col gap-8 bg-white p-8 rounded-tl-xl rounded-br-xl shadow-md">
 
-                <!-- <div class="flex flex-col items-center gap-2">
-                    <div class="flex items-center justify-center gap-2 font-playfair text-2xl text-dark-green">
-                        <Icon name="mdi:book-open-variant-outline" size="32" />
-                        <p>Módulos abordados no curso</p>
-                    </div>
-
-                    <div class="green-gradient w-[30%] h-0.5"></div>
-                </div> -->
-
                 <div class="flex items-start gap-4">
-                    <ul class="flex flex-col gap-1 flex-1">
+                    <ul class="flex flex-col gap-y-2 flex-1">
                         <ModuleCard v-for="module in modules_1" :value="module" />
                     </ul>
 
-                    <ul class="flex flex-col gap-1 flex-1">
+                    <ul class="flex flex-col gap-y-2 flex-1">
                         <ModuleCard v-for="module in modules_2" :value="module" />
                     </ul>
                 </div>
 
-                <div class="self-center flex items-center gap-2 border border-light-green py-2 px-4 rounded-full">
+                <div class="self-center flex items-center gap-4 border border-light-green py-2 px-4 rounded-md lg:rounded-full">
                     <div class="p-2 bg-light-green rounded-full h-10 text-white">
                         <Icon name="mdi:school-outline" size="24" />
                     </div>

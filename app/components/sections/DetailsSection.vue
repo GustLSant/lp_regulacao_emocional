@@ -27,11 +27,11 @@
                 description="O curso possui um certificado de 60 horas e conta com um programa completo para te guiar nesse update em sua prática clínica"
             />
 
-            <!-- <DetailsCard
+            <DetailsCard
                 icon-name="material-symbols:accessibility-rounded"
                 title="Para profissionais e estudantes"
-                description="O curso tem como público alvo Profissionais e Estudantes de Psicologia e Psiquiatria"
-            /> -->
+                description="O curso tem como público alvo profissionais e estudantes de psicologia e psiquiatria"
+            />
 
             <DetailsCard
                 icon-name="mdi:school-outline"
@@ -39,11 +39,11 @@
                 description="23 módulos sobre regulação emocional, intervenções clínicas e diferentes contextos de atuação"
             />
 
-            <DetailsCard
+            <!-- <DetailsCard
                 icon-name="mdi:book-outline"
                 title="Conteúdo multiprofissional"
                 description="O curso possui um caráter transteórico que permite que profissionais de diferentes afinidades clínicas possam aproveitar seu conteúdo"
-            />
+            /> -->
         </div>
 
         <p class="px-4 lg:px-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nobis recusandae, illo rerum sapiente consequuntur perferendis hic magnam ab eius quasi suscipit, velit ex animi pariatur officia facere aperiam quas.</p>

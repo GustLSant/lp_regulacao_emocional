@@ -7,7 +7,6 @@
     const teachers: TeacherData[] = [
         { imgUrl: 'aoliwjda', name: 'Dra. Anna Carolina Barbosa' },
         { imgUrl: 'aoliwjda', name: 'Ma. Brenda Fernanda Ferraz' },
-        { imgUrl: 'aoliwjda', name: 'Me. Dan Josua' },
         { imgUrl: 'aoliwjda', name: 'Me. Érico Augusto Monteiro' },
         { imgUrl: 'aoliwjda', name: 'Psi. Fernando Bahia Portela' },
         { imgUrl: 'aoliwjda', name: 'Me. Gustavo Carvalho Fretta' },

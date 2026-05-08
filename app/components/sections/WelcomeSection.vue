@@ -12,12 +12,12 @@ import CTAButton from '../common/CTAButton.vue';
         <div class="flex flex-col items-start">
             <p class="text-xl md:text-3xl tracking-[4px] lg:tracking-[8px] text-orange font-googleflex font-semibold">CURSO</p>
 
-            <div class="mb-4 mt-2 text-[19vw] sm:text-[15vw] md:text-9xl leading-[19vw] sm:leading-[15vw] md:leading-[0.9] font-playfair text-shadow-md">
+            <div class="mb-4 mt-2 text-[17vw] sm:text-[15vw] md:text-9xl leading-[17vw] sm:leading-[15vw] md:leading-[0.9] font-playfair text-shadow-md">
                 <p class="text-dark-blue">Regulação</p>
                 <p class="text-orange">Emocional</p>
             </div>
 
-            <p class="text-[8vw] sm:text-[5vw] md:text-4xl leading-[10vw] sm:leading-[6vw] md:leading-sm tracking-[6px] md:tracking-[12px] text-dark-blue">NA PRÁTICA CLÍNICA</p>
+            <p class="text-[7vw] sm:text-[5vw] md:text-4xl leading-[9vw] sm:leading-[6vw] md:leading-sm tracking-[6px] md:tracking-[12px] text-dark-blue">NA PRÁTICA CLÍNICA</p>
         </div>
 
         <div class="flex items-center gap-2 lg:gap-4">

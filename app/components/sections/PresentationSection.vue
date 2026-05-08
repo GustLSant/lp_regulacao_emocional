@@ -12,12 +12,14 @@
             <Icon name="mdi:play" size="48" class="text-white" />
         </div>
 
-        <div class="flex items-center gap-4 text-start shadow-md beige-card">
+        <div class="flex flex-col md:flex-row items-center gap-4 text-start shadow-md beige-card">
             <div class="bg-light-green rounded-full p-2 h-[48px]">
                 <Icon name="mdi:brain-freeze-outline" size="32" class="text-white" />
             </div>
-            <div class="h-[50%] w-0.5 bg-orange opacity-60" />
-            <div class="flex flex-col">
+
+            <div class="h-0.5 w-[50%] md:h-[50%] md:w-0.5 bg-orange opacity-60" />
+
+            <div class="flex flex-col gap-y-2">
                 <p class="text-orange font-playfair text-lg font-semibold">A DESREGULAÇÃO EMOCIONAL DO SEU PACIENTE NÃO É O PROBLEMA!</p>
                 <p class="font-light">O problema está em não sabermos como manejar isso clinicamente</p>
             </div>

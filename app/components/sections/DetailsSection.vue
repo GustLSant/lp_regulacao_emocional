@@ -8,9 +8,11 @@
 <template>
     <section class="flex flex-col items-center justify-center gap-8 py-20 bg-light-beige/70">
 
-        <Header>INFORMAÇÕES DO CURSO</Header>
-
-        <p class="px-4 lg:px-20">O curso de Regulação Emocional da Afirmativa reúne aulas e atividades que possibilitam uma jornada sobre teoria e prática clínica em regulação emocional. O objetivo é que você passe a atuar de modo mais alinhado às necessidades dos seus clientes e com maior criticidade aos diversos modos interventivos, além de conhecer as ferramentas disponíveis para seu trabalho.</p>
+        <div class="flex flex-col items-center justify-center gap-8 px-4">
+            <Header>INFORMAÇÕES DO CURSO</Header>
+    
+            <p class="px-4 lg:px-20">O curso de Regulação Emocional da Afirmativa reúne aulas e atividades que possibilitam uma jornada sobre teoria e prática clínica em regulação emocional. O objetivo é que você passe a atuar de modo mais alinhado às necessidades dos seus clientes e com maior criticidade aos diversos modos interventivos, além de conhecer as ferramentas disponíveis para seu trabalho.</p>
+        </div>
 
 
         <div class="flex items-start justify-evenly flex-wrap gap-8 gap-y-8 py-8 px-12 lg:px-20 bg-dark-blue text-white">
@@ -56,12 +58,12 @@
 
         <div class="px-4">
             <div class="self-center flex flex-col lg:flex-row items-stretch rounded-md bg-white shadow-md">
-                <div class="flex items-center gap-4 py-4 px-8 bg-dark-blue text-white rounded-t-md lg:rounded-l-md">
+                <div class="flex items-center gap-4 py-4 px-8 bg-dark-blue text-white rounded-t-md lg:rounded-none lg:rounded-l-md">
                     <Icon name="mdi:account-group-outline" size="52" />
-                    <p class="text-lg font-light tracking-wider leading-tight">COORDENAÇÃO <br /> DO CURSO</p>
+                    <p class="md:text-lg font-light tracking-wider leading-tight">COORDENAÇÃO <br /> DO CURSO</p>
                 </div>
     
-                <img :src="WavesImg" alt="Imagem de divisão" class="hidden lg:block -mr-[90px]" />
+                <img :src="WavesImg" alt="Imagem de divisão" class="hidden lg:block max-h-[112px] -mr-[100px]" />
     
                 <div class="flex flex-col justify-center gap-4 py-4 px-8">
                     <div class="flex items-center gap-2">

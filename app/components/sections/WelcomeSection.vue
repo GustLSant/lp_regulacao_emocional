@@ -10,23 +10,25 @@ import CTAButton from '../common/CTAButton.vue';
     <section class="min-h-screen relative flex flex-col justify-center gap-8 p-4 xs:pl-[7.5%] bg-[rgba(224,201,177,0.3)] lg:bg-transparent">
 
         <div class="flex flex-col items-start">
-            <p class="text-xl lg:text-3xl text-orange font-googleflex font-semibold tracking-[4px] lg:tracking-[8px]">CURSO</p>
-            <div class="mb-4 mt-2 text-7xl lg:text-9xl font-playfair text-shadow-md lg:!leading-[0.9]">
-                <p class="text-dark-blue break-all">Regulação</p>
-                <p class="text-orange break-all">Emocional</p>
+            <p class="text-xl md:text-3xl tracking-[4px] lg:tracking-[8px] text-orange font-googleflex font-semibold">CURSO</p>
+
+            <div class="mb-4 mt-2 text-[19vw] sm:text-[15vw] md:text-9xl leading-[19vw] sm:leading-[15vw] md:leading-[0.9] font-playfair text-shadow-md">
+                <p class="text-dark-blue">Regulação</p>
+                <p class="text-orange">Emocional</p>
             </div>
-            <p class="text-dark-blue text-2xl lg:text-4xl tracking-[6px] lg:tracking-[12px]">NA PRÁTICA CLÍNICA</p>
+
+            <p class="text-[8vw] sm:text-[5vw] md:text-4xl leading-[10vw] sm:leading-[6vw] md:leading-sm tracking-[6px] md:tracking-[12px] text-dark-blue">NA PRÁTICA CLÍNICA</p>
         </div>
 
         <div class="flex items-center gap-2 lg:gap-4">
             <div class="w-0.5 h-full bg-orange" />
-            <p class="text-dark-blue text-lg lg:text-xl">Da teoria à prática, <strong class="text-orange">além do básico.</strong></p>
+            <p class="text-dark-blue  lg:text-xl">Da teoria à prática, <strong class="text-orange">além do básico.</strong></p>
         </div>
 
         <div class="flex items-start gap-2 lg:gap-4 max-w-[400px]">
             <Icon name="ph:waves-thin" size="48" class="hidden lg:block shrink-0 text-orange" />
             <Icon name="ph:waves-thin" size="32" class="block lg:hidden shrink-0 text-orange" />
-            <p class="text-lg leading-tight lg:text-xl">Capacitação para profissionais que desejam transformar a vida dos seus pacientes com mais <strong class="font-semibold">precisão, segurança e profundidade clínica</strong></p>
+            <p class="md:text-lg leading-tight">Capacitação para profissionais que desejam transformar a vida dos seus pacientes com mais <strong class="font-semibold">precisão, segurança e profundidade clínica</strong></p>
         </div>
 
         <CTAButton />

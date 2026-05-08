@@ -7,7 +7,7 @@ import CTAButton from '../common/CTAButton.vue';
 
 
 <template>
-    <section class="min-h-screen relative flex flex-col justify-center gap-8 p-4 xs:pl-[7.5%] bg-[rgba(224,201,177,0.3)] lg:bg-transparent">
+    <section class="welcome-section relative flex flex-col justify-center gap-8 p-8 xs:pl-[7.5%] bg-dark-beige/30 md:bg-transparent">
 
         <div class="flex flex-col items-start">
             <p class="text-xl md:text-3xl tracking-[4px] lg:tracking-[8px] text-orange font-googleflex font-semibold">CURSO</p>
@@ -47,6 +47,13 @@ import CTAButton from '../common/CTAButton.vue';
 <style scoped>
     .welcome-section {
         background-color: rgba(224, 201, 177, 0.3);
+        min-height: auto; 
+    }
+
+    @media (min-height: 675px) {
+        .welcome-section {
+            min-height: 100vh;
+        }
     }
 
     .continue-badge {

@@ -47,3 +47,11 @@ body {
     left: 50%;
     transform: translateX(-50%);
 }
+
+.beige-card {
+    background-color: rgba(224, 201, 177, 0.2);
+    border: 1px solid rgba(184, 100, 62, 0.2);
+    border-radius: 6px;
+    padding: 8px 16px;
+    /* @apply 'py-2 px-4 rounded-md bg-dark-beige/20 border border-orange/20'; */
+}

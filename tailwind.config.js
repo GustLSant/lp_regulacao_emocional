@@ -19,8 +19,8 @@ export default {
         'light-beige': '#F3EADE',
       },
       fontFamily: {
-        playfair: ['"Playfair Display"', 'serif'],
-        googleflex: ['"Google Sans Flex"', 'sans-serif'],
+        'playfair': ['"Playfair Display"', 'serif'],
+        'googleflex': ['"Google Sans Flex"', 'sans-serif'],
       },
     },
   },

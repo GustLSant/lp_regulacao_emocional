@@ -1,8 +1,5 @@
 <script setup lang="ts">
     import Button from '../common/Button.vue';
-    import Header from '../common/Header.vue';
-
-
 </script>
 
 
@@ -15,7 +12,7 @@
             <Icon name="mdi:play" size="48" class="text-white" />
         </div>
 
-        <div class="flex items-center gap-4 py-2 px-4 rounded-md text-start shadow-md bg-dark-beige/20 border border-orange/20">
+        <div class="flex items-center gap-4 text-start shadow-md beige-card">
             <div class="bg-light-green rounded-full p-2 h-[48px]">
                 <Icon name="mdi:brain-freeze-outline" size="32" class="text-white" />
             </div>
@@ -28,11 +25,11 @@
 
         <p>A desregulação emocional está presente nos mais diferentes clientes e diagnósticos. <br /> Mas nem sempre sabemos o que fazer nessas situações.</p>
 
-        <div class="flex items-center gap-2 bg-dark-beige/20 border border-orange/20 py-2 px-4 rounded-md">
+        <div class="flex items-center gap-3 beige-card">
             <div class="border border-light-green p-1 rounded-full h-7">
                 <Icon name="mdi:book" size="18" class="text-light-green" />
             </div>
-            <p class="text-sm tracking-wider">Este curso é uma oportunidade de sair de enfoques superficiais, pouco científicos e pouco eficazes</p>
+            <p class="text-sm text-left tracking-wider">Este curso é uma oportunidade de sair de enfoques superficiais, pouco científicos e pouco eficazes</p>
         </div>
 
         <Button color="orange" start-icon-name="mdi:book-open-page-variant-outline" class="bg-orange">

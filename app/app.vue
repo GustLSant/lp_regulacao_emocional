@@ -5,6 +5,7 @@
 	import TeachersSection from './components/sections/TeachersSection.vue';
 	import ContentSection from './components/sections/ContentSection.vue';
 	import FaqSection from './components/sections/FaqSection.vue';
+	import Footer from './components/sections/Footer.vue';
 </script>
 
 
@@ -16,6 +17,7 @@
 		<TeachersSection />
 		<ContentSection />
 		<FaqSection />
+		<Footer />
 	</div>
 </template>
 

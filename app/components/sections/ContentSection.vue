@@ -42,7 +42,7 @@
         <div class="rounded-tl-xl rounded-br-xl border border-white/40 p-2">
             <div class=" flex flex-col gap-8 bg-white p-8 rounded-tl-xl rounded-br-xl shadow-md">
 
-                <div class="flex items-start gap-4">
+                <div class="flex items-start flex-wrap gap-4">
                     <ul class="flex flex-col gap-y-2 flex-1">
                         <ModuleCard v-for="module in modules_1" :value="module" />
                     </ul>
@@ -56,7 +56,7 @@
                     <div class="p-2 bg-light-green rounded-full h-10 text-white">
                         <Icon name="mdi:school-outline" size="24" />
                     </div>
-                    <p><strong class="font-bold text-light-green">5 Módulos completos</strong> com 23 tópicos discutidos num total de <strong class="font-bold text-light-green">60 horas</strong> para aprofundar seus conhecimentos e transformar sua prática clínica</p>
+                    <p class="leading-tight"><strong class="font-bold text-light-green">5 Módulos completos</strong> com 23 tópicos discutidos num total de <strong class="font-bold text-light-green">60 horas</strong> para aprofundar seus conhecimentos e transformar sua prática clínica</p>
                 </div>
 
                 <CTAButton class="m-auto" />

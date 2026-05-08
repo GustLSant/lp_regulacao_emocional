@@ -36,7 +36,7 @@
             <DetailsCard
                 icon-name="mdi:school-outline"
                 title="Formação completa e atualizada"
-                description="23 módulos sobre regulação emocional, intervenções clínicas e diferentes contextos de atuação"
+                description="Diversas horas de conteúdo sobre regulação emocional, intervenções clínicas e diferentes contextos de atuação"
             />
 
             <!-- <DetailsCard

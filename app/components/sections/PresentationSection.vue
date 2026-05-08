@@ -8,10 +8,8 @@
 
 <template>
     <section class="flex flex-col items-center justify-center gap-8 py-20 px-4 lg:px-20 bg-white text-center">
-        
-        <Header>APRESENTAÇÃO DO CURSO</Header>
 
-        <p>A regulação emocional é um processo fundamental para uma prática clínica efetiva e acolhedora</p>
+        <p class="text-lg tracking-wider font-light">A regulação emocional é um processo fundamental para uma prática clínica efetiva e acolhedora</p>
 
         <div class="w-full max-w-[500px] aspect-video flex items-center justify-center bg-black rounded-md shadow-md">
             <Icon name="mdi:play" size="48" class="text-white" />
@@ -27,14 +25,6 @@
                 <p class="font-light">O problema está em não sabermos como manejar isso clinicamente</p>
             </div>
         </div>
-
-        <!-- <div class="flex flex-col items-center gap-2">
-            <p>A desregulação emocional está presente nos mais diferentes clientes e diagnósticos. <br /> Mas nem sempre sabemos o que fazer nessas situações.</p>
-            <div class="flex items-center gap-1">
-                <Icon name="mdi:book-outline" size="24" />
-                <p>Este curso é uma oportunidade de sair de enfoques superficiais, pouco científicos e pouco eficazes</p>
-            </div>
-        </div> -->
 
         <p>A desregulação emocional está presente nos mais diferentes clientes e diagnósticos. <br /> Mas nem sempre sabemos o que fazer nessas situações.</p>
 

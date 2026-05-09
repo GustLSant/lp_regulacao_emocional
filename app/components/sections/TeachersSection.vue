@@ -29,7 +29,7 @@
     <section class="flex flex-col items-center justify-center gap-8 py-20 px-4 lg:px-20 bg-white">
         <Header>PROFESSORES</Header>
 
-        <div class="grid items-start grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+        <div class="grid items-start grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
             <TeacherCard
                 v-for="teacher in teachers"
                 :key="teacher.name"

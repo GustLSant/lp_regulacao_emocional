@@ -1,5 +1,5 @@
 <script setup lang="ts">
-    const props = defineProps<{ color: 'orange' | 'dark-blue' | 'light-blue'; startIconName?: string, endIconName?: string }>();
+    const props = defineProps<{ color?: 'orange' | 'dark-blue' | 'light-blue'; startIconName?: string, endIconName?: string }>();
 </script>
 
 

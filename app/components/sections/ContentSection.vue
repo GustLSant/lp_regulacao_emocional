@@ -2,6 +2,7 @@
     import CTAButton from '../common/CTAButton.vue';
     import Header from '../common/Header.vue';
     import ModuleCard from '../ModuleCard.vue';
+    import WavesImg from '../../assets/img/waves.svg'
 
     const modules_1 = [
         'Regulação Emocional e Desregulação Emocional',
@@ -59,22 +60,32 @@
                     <p class="leading-tight text-center xs:text-left"><strong class="font-bold text-light-green">5 Módulos completos</strong> com 23 tópicos discutidos num total de <strong class="font-bold text-light-green">60 horas</strong> para aprofundar seus conhecimentos e transformar sua prática clínica</p>
                 </div>
 
-                <CTAButton class="m-auto" />
-
-                <!-- <div class="flex flex-col items-center gap-2 mt-10">
-                    <div class="flex items-center justify-center gap-2 font-playfair text-2xl text-dark-green">
-                        <Icon name="mdi:television-play" size="32" />
-                        <p>Apresentação do conteúdo</p>
+                <div class="self-center flex flex-col lg:flex-row items-stretch rounded-md bg-white border border-dark-blue/20 shadow-md">
+                    <div class="flex flex-col justify-center items-center p-4 pl-6 rounded-t-md lg:rounded-none lg:rounded-l-md bg-dark-blue text-white">
+                        <p class="text-xl md:text-3xl font-light tracking-wider leading-tight"><span class="text-xs font-light mr-1">R$</span>559,00</p>
+                        <p class="text-sm opacity-60">(em até 12x)</p>
                     </div>
 
-                    <div class="green-gradient w-[30%] h-0.5"></div>
+                    <img :src="WavesImg" alt="Imagem de divisão" class="hidden lg:block max-h-[120px] -mr-[100px]" />
+
+                    <div class="flex flex-col justify-center gap-4 py-4 px-8">
+                        <div class="flex items-center gap-2">
+                            <div class="bg-dark-green rounded-full p-1 h-[32px]">
+                                <Icon name="mdi:school-outline" size="24" class="text-white" />
+                            </div>
+                            <p class="leading-tight">60 horas de aulas com <br /> professores especializados</p>
+                        </div>
+
+                        <div class="flex items-center gap-2">
+                            <div class="bg-dark-green rounded-full p-1 h-[32px]">
+                                <Icon name="mdi:certificate-outline" size="24" class="text-white" />
+                            </div>
+                            <p class="leading-tight">Certificado de conclusão</p>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="flex items-center justify-center">
-                    <div class="w-full max-w-[500px] aspect-video flex items-center justify-center bg-black rounded-md shadow-md">
-                        <Icon name="mdi:play" size="48" class="text-white" />
-                    </div>
-                </div> -->
+                <CTAButton class="self-center !mb-2" />
                 
             </div>
         </div>

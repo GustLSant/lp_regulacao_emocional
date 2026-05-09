@@ -9,7 +9,7 @@
         @click="open = !open"
         class="flex items-stretch rounded-md shadow-md border border-orange/20"
     >
-        <div class="basis-1 h-full w-0.5 bg-orange" />
+        <div class="basis-1 self-stretch rounded-l-md bg-orange" />
 
         <div class="basis-1 grow flex flex-col p-2 overflow-hidden">
             <div class="flex items-center justify-between">

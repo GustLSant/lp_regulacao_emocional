@@ -1,5 +1,6 @@
 <script setup lang="ts">
     import Header from '../common/Header.vue';
+    import WppButton from '../common/WppButton.vue';
 
     const items: { title: string, content: string }[] = [
         {
@@ -48,6 +49,11 @@
 
         <div class="flex flex-col gap-2">
             <FaqCard v-for="item in items" :title="item.title" :content="item.content" />
+        </div>
+
+        <div class="self-center flex flex-col items-center gap-2 text-sm">
+            <p>Sobrou alguma dúvida?</p>
+            <WppButton class="text-sm" />
         </div>
     </section>
 </template>

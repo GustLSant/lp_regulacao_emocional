@@ -15,7 +15,7 @@
         </div>
 
 
-        <div class="flex items-start justify-evenly flex-wrap gap-8 gap-y-8 py-8 px-12 lg:px-20 bg-dark-blue text-white">
+        <div class="flex items-start justify-evenly flex-wrap self-stretch gap-8 gap-y-8 py-8 px-12 lg:px-20 bg-dark-blue text-white">
             <DetailsCard
                 icon-name="streamline:global-learning"
                 title="Professores de alta qualidade"
@@ -46,15 +46,7 @@
                 title="Formação completa e atualizada"
                 description="Diversas horas de conteúdo sobre regulação emocional, intervenções clínicas e diferentes contextos de atuação"
             />
-
-            <!-- <DetailsCard
-                icon-name="mdi:book-outline"
-                title="Conteúdo multiprofissional"
-                description="O curso possui um caráter transteórico que permite que profissionais de diferentes afinidades clínicas possam aproveitar seu conteúdo"
-            /> -->
         </div>
-
-        <!-- <p class="px-4 lg:px-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nobis recusandae, illo rerum sapiente consequuntur perferendis hic magnam ab eius quasi suscipit, velit ex animi pariatur officia facere aperiam quas.</p> -->
 
         <div class="self-center flex flex-col lg:flex-row items-stretch rounded-md bg-white shadow-md">
             <div class="flex items-center gap-4 py-4 px-8 bg-dark-blue text-white rounded-t-md lg:rounded-none lg:rounded-l-md">
@@ -90,11 +82,13 @@
         height: 1px;
         width: 100%;
         background-image: linear-gradient(to right, transparent, white, transparent);
+        flex-shrink: 0;
     }
 
     @media (min-width: 1024px) {
         .separator {
-            height: 100%;
+            align-self: stretch; 
+            height: auto; 
             width: 1px;
             background-image: linear-gradient(to bottom, transparent, white, transparent);
         }

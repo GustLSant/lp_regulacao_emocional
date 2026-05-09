@@ -16,7 +16,9 @@
         </div>
         
         <div class="flex items-center justify-center p-2 bg-dark-blue text-white">
-            <a href="" class="font-light underline hover:cursor-pointer">Política de privacidade</a>
+            <NuxtLink to="/policy" target="_blank" class="font-light underline hover:cursor-pointer">
+                Política de privacidade
+            </NuxtLink>
         </div>
 
     </section>

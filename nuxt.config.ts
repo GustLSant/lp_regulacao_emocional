@@ -9,7 +9,8 @@ export default defineNuxtConfig({
 	ssr: true,
 	nitro: {
 		prerender: {
-			routes: ['/']
+			crawlLinks: true,
+			routes: ['/', '/policy']
 		}
 	},
 	app: {

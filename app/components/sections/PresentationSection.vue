@@ -1,5 +1,6 @@
 <script setup lang="ts">
     import Button from '../common/Button.vue';
+    import VideoDisplayer from '../common/VideoDisplayer.vue';
 </script>
 
 
@@ -8,9 +9,7 @@
 
         <p class="text-lg tracking-wider font-light">A regulação emocional é um processo fundamental para uma prática clínica efetiva e acolhedora</p>
 
-        <div class="w-full max-w-[500px] aspect-video flex items-center justify-center bg-black rounded-md shadow-md">
-            <Icon name="mdi:play" size="48" class="text-white" />
-        </div>
+        <VideoDisplayer url="https://www.youtube.com/watch?v=u31qwQUeGuM" />
 
         <div class="flex flex-col md:flex-row items-center gap-4 text-start shadow-md beige-card">
             <div class="bg-light-green rounded-full p-2 h-[48px]">

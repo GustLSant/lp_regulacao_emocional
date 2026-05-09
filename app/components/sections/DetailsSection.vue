@@ -56,29 +56,27 @@
 
         <!-- <p class="px-4 lg:px-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nobis recusandae, illo rerum sapiente consequuntur perferendis hic magnam ab eius quasi suscipit, velit ex animi pariatur officia facere aperiam quas.</p> -->
 
-        <div class="px-4">
-            <div class="self-center flex flex-col lg:flex-row items-stretch rounded-md bg-white shadow-md">
-                <div class="flex items-center gap-4 py-4 px-8 bg-dark-blue text-white rounded-t-md lg:rounded-none lg:rounded-l-md">
-                    <Icon name="mdi:account-group-outline" size="52" />
-                    <p class="md:text-lg font-light tracking-wider leading-tight">COORDENAÇÃO <br /> DO CURSO</p>
+        <div class="self-center flex flex-col lg:flex-row items-stretch rounded-md bg-white shadow-md">
+            <div class="flex items-center gap-4 py-4 px-8 bg-dark-blue text-white rounded-t-md lg:rounded-none lg:rounded-l-md">
+                <Icon name="mdi:account-group-outline" size="52" />
+                <p class="md:text-lg font-light tracking-wider leading-tight">COORDENAÇÃO <br /> DO CURSO</p>
+            </div>
+
+            <img :src="WavesImg" alt="Imagem de divisão" class="hidden lg:block max-h-[112px] -mr-[100px]" />
+
+            <div class="flex flex-col justify-center gap-4 py-4 px-8">
+                <div class="flex items-center gap-2">
+                    <div class="bg-dark-green rounded-full p-1 h-[32px]">
+                        <Icon name="mdi:user-outline" size="24" class="text-white" />
+                    </div>
+                    <p class="leading-tight">Me. Érico Augusto Monteiro</p>
                 </div>
-    
-                <img :src="WavesImg" alt="Imagem de divisão" class="hidden lg:block max-h-[112px] -mr-[100px]" />
-    
-                <div class="flex flex-col justify-center gap-4 py-4 px-8">
-                    <div class="flex items-center gap-2">
-                        <div class="bg-dark-green rounded-full p-1 h-[32px]">
-                            <Icon name="mdi:user-outline" size="24" class="text-white" />
-                        </div>
-                        <p class="leading-tight">Me. Érico Augusto Monteiro</p>
+
+                <div class="flex items-center gap-2">
+                    <div class="bg-dark-green rounded-full p-1 h-[32px]">
+                        <Icon name="mdi:user-outline" size="24" class="text-white" />
                     </div>
-    
-                    <div class="flex items-center gap-2">
-                        <div class="bg-dark-green rounded-full p-1 h-[32px]">
-                            <Icon name="mdi:user-outline" size="24" class="text-white" />
-                        </div>
-                        <p class="leading-tight">Dr. Mozer de Miranda Ramos</p>
-                    </div>
+                    <p class="leading-tight">Dr. Mozer de Miranda Ramos</p>
                 </div>
             </div>
         </div>

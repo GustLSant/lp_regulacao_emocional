@@ -1,26 +1,40 @@
 <script setup lang="ts">
     import Header from '../common/Header.vue';
     import TeacherCard from '../teachersSection/TeacherCard.vue';
-    import PersonPlaceholder from '../../assets/img/person-placeholder.png'
+    import AnnaImg from '../../assets/img/teachers/anna.jpeg';
+    import BrendaImg from '../../assets/img/teachers/brenda-fernanda.png';
+    import EricoImg from '../../assets/img/teachers/erico.jpeg';
+    import FernandoImg from '../../assets/img/teachers/fernando.jpeg';
+    import GustavoImg from '../../assets/img/teachers/gustavo-frettajpeg.jpeg';
+    import HenriqueImg from '../../assets/img/teachers/henrique.jpeg';
+    import JoaoImg from '../../assets/img/teachers/joao-paulo.jpeg';
+    import JucimaraImg from '../../assets/img/teachers/jucimara.jpeg';
+    import MaisaImg from '../../assets/img/teachers/maisa.png';
+    import MozerImg from '../../assets/img/teachers/mozer.jpeg';
+    import PauloImg from '../../assets/img/teachers/paulo-gomes.jpeg';
+    import PrislaImg from '../../assets/img/teachers/prisla.png';
+    import RamiroImg from '../../assets/img/teachers/ramiro.jpeg';
+    import ThiagoImg from '../../assets/img/teachers/thiago.png';
+    import VitoriaImg from '../../assets/img/teachers/vitoria.jpeg';
 
-    type TeacherData = { imgUrl: string, name: string };
+    type TeacherData = { imgUrl: string, name: string, bgPos?: string };
 
     const teachers: TeacherData[] = [
-        { imgUrl: PersonPlaceholder, name: 'Dra. Anna Carolina Barbosa' },
-        { imgUrl: PersonPlaceholder, name: 'Ma. Brenda Fernanda Ferraz' },
-        { imgUrl: PersonPlaceholder, name: 'Me. Érico Augusto Monteiro' },
-        { imgUrl: PersonPlaceholder, name: 'Psi. Fernando Bahia Portela' },
-        { imgUrl: PersonPlaceholder, name: 'Me. Gustavo Carvalho Fretta' },
-        { imgUrl: PersonPlaceholder, name: 'Me. Henrique Freire' },
-        { imgUrl: PersonPlaceholder, name: 'Me. João Paulo Feitoza' },
-        { imgUrl: PersonPlaceholder, name: 'Ma. Jucimara Cabral Ramos' },
-        { imgUrl: PersonPlaceholder, name: 'Ma. Maísa Carvalho Silva' },
-        { imgUrl: PersonPlaceholder, name: 'Dr. Mozer Ramos' },
-        { imgUrl: PersonPlaceholder, name: 'Dr. Paulo Gomes de Sousa' },
-        { imgUrl: PersonPlaceholder, name: 'Dra. Prisla Ücker Calvetti' },
-        { imgUrl: PersonPlaceholder, name: 'Dr. Ramiro Coni Santana' },
-        { imgUrl: PersonPlaceholder, name: 'Psi. Thiago Mácimo Pereira' },
-        { imgUrl: PersonPlaceholder, name: 'Ma. Vitória Ferreira de Azevedo' }
+        { imgUrl: AnnaImg, name: 'Dra. Anna Carolina Barbosa' },
+        { imgUrl: BrendaImg, name: 'Ma. Brenda Fernanda Ferraz' },
+        { imgUrl: EricoImg, name: 'Me. Érico Augusto Monteiro', bgPos: 'top center' },
+        { imgUrl: FernandoImg, name: 'Psi. Fernando Bahia Portela' },
+        { imgUrl: GustavoImg, name: 'Me. Gustavo Carvalho Fretta' },
+        { imgUrl: HenriqueImg, name: 'Me. Henrique Freire' },
+        { imgUrl: JoaoImg, name: 'Me. João Paulo Feitoza', bgPos: 'top center' },
+        { imgUrl: JucimaraImg, name: 'Ma. Jucimara Cabral Ramos', bgPos: 'top center' },
+        { imgUrl: MaisaImg, name: 'Ma. Maísa Carvalho Silva' },
+        { imgUrl: MozerImg, name: 'Dr. Mozer Ramos' },
+        { imgUrl: PauloImg, name: 'Dr. Paulo Gomes de Sousa', bgPos: 'top center' },
+        { imgUrl: PrislaImg, name: 'Dra. Prisla Ücker Calvetti' },
+        { imgUrl: RamiroImg, name: 'Dr. Ramiro Coni Santana' },
+        { imgUrl: ThiagoImg, name: 'Psi. Thiago Mácimo Pereira' },
+        { imgUrl: VitoriaImg, name: 'Ma. Vitória Ferreira de Azevedo' }
     ];
 </script>
 
@@ -35,6 +49,7 @@
                 :key="teacher.name"
                 :img-url="teacher.imgUrl"
                 :name="teacher.name"
+                :bg-pos="teacher.bgPos"
             />
         </div>
     </section>

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-    const props = defineProps<{ imgUrl: string, name: string }>();
+    const props = defineProps<{ imgUrl: string, name: string, bgPos?: string }>();
 </script>
 
 
@@ -12,7 +12,7 @@
                 :style="{
                     backgroundImage: `url(${props.imgUrl})`,
                     backgroundSize: 'cover',
-                    backgroundPosition: 'center',
+                    backgroundPosition: (props.bgPos) ?? 'center',
                 }"
             />
             <p class="bg-orange p-4 leading-tight">{{ props.name }}</p>

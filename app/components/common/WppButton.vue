@@ -1,7 +1,7 @@
 <script setup lang="ts">
     import Button from './Button.vue';
 
-    const wppNumber: string = '5579991218675';
+    const wppNumber: string = '5579981333089';
     const message: string = encodeURIComponent('Olá! Gostaria de tirar algumas dúvidas sobre o curso.');
 
     function redirectToWpp() {

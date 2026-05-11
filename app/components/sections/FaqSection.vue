@@ -49,6 +49,10 @@
 
         <div class="flex flex-col gap-2">
             <FaqCard v-for="item in items" :title="item.title" :content="item.content" />
+
+            <div class="mt-4 text-[#702e8f] text-sm font-light text-center underline hover:cursor-pointer">
+                <a href="mailto:afirmativaeditora@gmail.com">afirmativaeditora@gmail.com</a>
+            </div>
         </div>
 
         <div class="self-center flex flex-col items-center gap-2 text-sm">

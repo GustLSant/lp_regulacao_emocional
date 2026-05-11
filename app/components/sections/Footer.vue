@@ -15,10 +15,12 @@
             </div>
         </div>
         
-        <div class="flex items-center justify-center p-2 bg-dark-blue text-white">
+        <div class="flex items-center justify-center gap-4 p-2 text-sm font-light bg-dark-blue text-white">
             <NuxtLink to="/policy" target="_blank" class="font-light underline hover:cursor-pointer">
                 Política de privacidade
             </NuxtLink>
+
+            <p href="">Website desenvolvido por <a href="mailto:gustlsantdev@gmail.com" target="_blank" class="underline hover:cursor-pointer">gustlsantdev@gmail.com</a></p>
         </div>
 
     </section>

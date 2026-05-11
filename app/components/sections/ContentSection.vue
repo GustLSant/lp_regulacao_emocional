@@ -57,7 +57,9 @@
                     <div class="p-2 bg-light-green rounded-full h-10 text-white">
                         <Icon name="mdi:school-outline" size="24" />
                     </div>
-                    <p class="leading-tight text-center xs:text-left"><strong class="font-bold text-light-green">5 Módulos completos</strong> com 23 tópicos discutidos num total de <strong class="font-bold text-light-green">60 horas</strong> para aprofundar seus conhecimentos e transformar sua prática clínica</p>
+                    <p class="leading-tight text-center xs:text-left">
+                        O curso está dividido em <strong class="font-bold text-light-green">5 módulos completos</strong> para aprofundar seus conhecimentos e transformar sua prática clínica
+                    </p>
                 </div>
 
                 <div class="self-center flex flex-col lg:flex-row items-stretch rounded-md bg-white border border-dark-blue/20 shadow-md">

@@ -61,7 +61,7 @@
                     <div class="bg-dark-green rounded-full p-1 h-[32px]">
                         <Icon name="mdi:user-outline" size="24" class="text-white" />
                     </div>
-                    <p class="leading-tight">Me. Érico Augusto Monteiro</p>
+                    <p class="leading-tight">Me. Érico Augusto Barreto Monteiro</p>
                 </div>
 
                 <div class="flex items-center gap-2">

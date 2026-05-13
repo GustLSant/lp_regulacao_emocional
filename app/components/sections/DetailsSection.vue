@@ -28,7 +28,7 @@
             <DetailsCard
                 icon-name="mdi:certificate-outline"
                 title="Certificado incluso"
-                description="O curso possui um certificado de 60 horas e conta com um programa completo para te guiar nesse update em sua prática clínica"
+                description="O curso possui um certificado de 50 horas e conta com um programa completo para te guiar nesse update em sua prática clínica"
             />
 
             <div class="separator opacity-40" />

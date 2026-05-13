@@ -75,7 +75,7 @@
                             <div class="bg-dark-green rounded-full p-1 h-[32px]">
                                 <Icon name="mdi:school-outline" size="24" class="text-white" />
                             </div>
-                            <p class="leading-tight">60 horas de aulas com <br /> professores especializados</p>
+                            <p class="leading-tight">50 horas de aulas com <br /> professores especializados</p>
                         </div>
 
                         <div class="flex items-center gap-2">

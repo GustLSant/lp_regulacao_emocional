@@ -49,15 +49,26 @@
 
         <div class="flex flex-col gap-2">
             <FaqCard v-for="item in items" :title="item.title" :content="item.content" />
-
-            <div class="mt-4 text-[#702e8f] text-sm font-light text-center underline hover:cursor-pointer">
-                <a href="mailto:afirmativaeditora@gmail.com">afirmativaeditora@gmail.com</a>
-            </div>
         </div>
 
         <div class="self-center flex flex-col items-center gap-2 text-sm">
             <p>Sobrou alguma dúvida?</p>
             <WppButton class="text-sm" />
+        </div>
+
+        <div class="self-center flex flex-col text-center gap-2 rounded-tl-xl rounded-br-xl border border-[#642c86] p-4">
+            <p class="text-sm leading-tight">Quer conhecer nossos outros produtos? Acesse nosso site!</p>
+
+            <a
+                href="https://www.afirmativaeditora.com.br/"
+                target="_blank"
+                ref="noopener"
+                class="self-center flex items-center gap-2 px-4 py-2 bg-[#642c86] text-white text-sm rounded-md hover:underline hover:brightness-125"
+                :style="{ transition: 'filter 0.15s' }"
+            >
+                <Icon name="mdi:open-in-new" size="24" />
+                <p>Editora Afirmativa</p>
+            </a>
         </div>
     </section>
 </template>

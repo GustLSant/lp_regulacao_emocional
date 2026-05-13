@@ -16,26 +16,35 @@
     import RamiroImg from '../../assets/img/teachers/ramiro.jpeg';
     import ThiagoImg from '../../assets/img/teachers/thiago.png';
     import VitoriaImg from '../../assets/img/teachers/vitoria.jpeg';
+    import TeachersData from '../../data/teachers.json'
+    import Modal from '../common/Modal.vue';
 
-    type TeacherData = { imgUrl: string, name: string, bgPos?: string };
+    type TeacherData = { imgUrl: string, name: string, description: string, bgPos?: string };
 
-    const teachers: TeacherData[] = [
-        { imgUrl: AnnaImg, name: 'Dra. Anna Carolina Barbosa' },
-        { imgUrl: BrendaImg, name: 'Ma. Brenda Fernanda Ferraz' },
-        { imgUrl: EricoImg, name: 'Me. Érico Augusto Monteiro', bgPos: 'top center' },
-        { imgUrl: FernandoImg, name: 'Psi. Fernando Bahia Portela' },
-        { imgUrl: GustavoImg, name: 'Me. Gustavo Carvalho Fretta' },
-        { imgUrl: HenriqueImg, name: 'Me. Henrique Freire' },
-        { imgUrl: JoaoImg, name: 'Me. João Paulo Feitoza', bgPos: 'top center' },
-        { imgUrl: JucimaraImg, name: 'Ma. Jucimara Cabral Ramos', bgPos: 'top center' },
-        { imgUrl: MaisaImg, name: 'Ma. Maísa Carvalho Silva' },
-        { imgUrl: MozerImg, name: 'Dr. Mozer Ramos' },
-        { imgUrl: PauloImg, name: 'Dr. Paulo Gomes de Sousa', bgPos: 'top center' },
-        { imgUrl: PrislaImg, name: 'Dra. Prisla Ücker Calvetti' },
-        { imgUrl: RamiroImg, name: 'Dr. Ramiro Coni Santana' },
-        { imgUrl: ThiagoImg, name: 'Psi. Thiago Mácimo Pereira' },
-        { imgUrl: VitoriaImg, name: 'Ma. Vitória Ferreira de Azevedo' }
-    ];
+    const teacherImages: Record<string, string> = {
+        AnnaImg,
+        BrendaImg,
+        EricoImg,
+        FernandoImg,
+        GustavoImg,
+        HenriqueImg,
+        JoaoImg,
+        JucimaraImg,
+        MaisaImg,
+        MozerImg,
+        PauloImg,
+        PrislaImg,
+        RamiroImg,
+        ThiagoImg,
+        VitoriaImg
+    };
+
+    const teachers: TeacherData[] = TeachersData.map((teacher) => ({
+        ...teacher,
+        imgUrl: teacherImages[teacher.imgUrl]!
+    }));
+
+    const selectedTeacher = ref<TeacherData | undefined>(undefined);
 </script>
 
 
@@ -46,6 +55,7 @@
         <div class="grid items-start grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
             <TeacherCard
                 v-for="teacher in teachers"
+                @click="selectedTeacher = teacher"
                 :key="teacher.name"
                 :img-url="teacher.imgUrl"
                 :name="teacher.name"
@@ -53,6 +63,14 @@
             />
         </div>
     </section>
+
+    <Modal v-if="selectedTeacher !== undefined" :title="selectedTeacher.name" @close-modal="selectedTeacher = undefined">
+        <template #default>
+            <div class="opacity-0 fade-in-left" :style="{ animationDelay: '75ms' }">
+                <p>{{ selectedTeacher.description }}</p>
+            </div>
+        </template>
+    </Modal>
 </template>
 
 

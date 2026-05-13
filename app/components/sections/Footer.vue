@@ -11,7 +11,7 @@
                 <div class="flex flex-col items-center gap-2 p-4 bg-white rounded-tl-xl rounded-br-xl shadow-md">
                     <div class="flex flex-col gap-2 items-center">
                         <img :src="Logo" alt="Logo da Afirmativa" class="w-8" />
-                        <p class="text-sm font-light text-center">AFIRMATIVA SERVIÇOS ACADEMICOS E PUBLICAÇÕES LTDA | CNPJ 45.555.897/0001-58 | Rua Jacinto Uchoa de Mendonça, 223 Bairro Grageru, Aracaju/SE - CEP 49.026-160 | 2023</p>
+                        <p class="text-sm font-light text-center">AFIRMATIVA SERVIÇOS ACADEMICOS E PUBLICAÇÕES LTDA | CNPJ 45.555.897/0001-58 | Rua Jacinto Uchoa de Mendonça, 223 Bairro Grageru, Aracaju/SE - CEP 49.026-160</p>
                     </div>                
                     
                     <div class="text-[#702e8f] text-sm font-light text-center underline hover:cursor-pointer">

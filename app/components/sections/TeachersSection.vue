@@ -4,6 +4,7 @@
     import AnnaImg from '../../assets/img/teachers/anna.jpeg';
     import BrendaImg from '../../assets/img/teachers/brenda-fernanda.png';
     import EricoImg from '../../assets/img/teachers/erico.jpeg';
+    import EslyImg from '../../assets/img/teachers/esly.jpeg';
     import FernandoImg from '../../assets/img/teachers/fernando.jpeg';
     import GustavoImg from '../../assets/img/teachers/gustavo-frettajpeg.jpeg';
     import HenriqueImg from '../../assets/img/teachers/henrique.jpeg';
@@ -12,9 +13,8 @@
     import MaisaImg from '../../assets/img/teachers/maisa.png';
     import MozerImg from '../../assets/img/teachers/mozer.jpeg';
     import PauloImg from '../../assets/img/teachers/paulo-gomes.jpeg';
-    import PrislaImg from '../../assets/img/teachers/prisla.png';
     import RamiroImg from '../../assets/img/teachers/ramiro.jpeg';
-    import ThiagoImg from '../../assets/img/teachers/thiago.png';
+    import TammyImg from '../../assets/img/teachers/tammy.png';
     import VitoriaImg from '../../assets/img/teachers/vitoria.jpeg';
     import TeachersData from '../../data/teachers.json'
     import Modal from '../common/Modal.vue';
@@ -25,6 +25,7 @@
         AnnaImg,
         BrendaImg,
         EricoImg,
+        EslyImg,
         FernandoImg,
         GustavoImg,
         HenriqueImg,
@@ -33,9 +34,8 @@
         MaisaImg,
         MozerImg,
         PauloImg,
-        PrislaImg,
         RamiroImg,
-        ThiagoImg,
+        TammyImg,
         VitoriaImg
     };
 

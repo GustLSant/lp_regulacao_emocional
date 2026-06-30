@@ -1,10 +1,14 @@
 <script setup lang="ts">
     import Button from './Button.vue';
+
+    function handleClick() {
+        window.open('https://pay.kiwify.com.br/sVPaTpI', '_blank', 'noopener,noreferrer');
+    }
 </script>
 
 
 <template>
-    <Button color="orange" start-icon-name="mdi:book-open-page-variant-outline" class="self-start bg-orange font-light">
+    <Button @click="handleClick" color="orange" start-icon-name="mdi:book-open-page-variant-outline" class="bg-orange font-light">
         Inscrever-se
     </Button>
 </template>

@@ -1,23 +1,23 @@
 <script setup lang="ts">
     import Header from '../common/Header.vue';
-    import TeacherCard from '../teachersSection/TeacherCard.vue';
-    import AnnaImg from '../../assets/img/teachers/anna.jpeg';
-    import BrendaImg from '../../assets/img/teachers/brenda-fernanda.png';
-    import EricoImg from '../../assets/img/teachers/erico.jpeg';
-    import EslyImg from '../../assets/img/teachers/esly.jpeg';
-    import FernandoImg from '../../assets/img/teachers/fernando.jpeg';
-    import GustavoImg from '../../assets/img/teachers/gustavo-frettajpeg.jpeg';
-    import HenriqueImg from '../../assets/img/teachers/henrique.jpeg';
-    import JoaoImg from '../../assets/img/teachers/joao-paulo.jpeg';
-    import JucimaraImg from '../../assets/img/teachers/jucimara.jpeg';
-    import MaisaImg from '../../assets/img/teachers/maisa.png';
-    import MozerImg from '../../assets/img/teachers/mozer.jpeg';
-    import PauloImg from '../../assets/img/teachers/paulo-gomes.jpeg';
-    import RamiroImg from '../../assets/img/teachers/ramiro.jpeg';
-    import TammyImg from '../../assets/img/teachers/tammy.png';
-    import VitoriaImg from '../../assets/img/teachers/vitoria.jpeg';
-    import TeachersData from '../../data/teachers.json'
     import Modal from '../common/Modal.vue';
+    import TeacherCard from '../teachersSection/TeacherCard.vue';
+    import AnnaImg      from '../../assets/img/teachers/anna.jpeg';
+    import BrendaImg    from '../../assets/img/teachers/brenda-fernanda.jpeg';
+    import EricoImg     from '../../assets/img/teachers/erico.jpeg';
+    import EslyImg      from '../../assets/img/teachers/esly.jpeg';
+    import FernandoImg  from '../../assets/img/teachers/fernando.jpeg';
+    import GustavoImg   from '../../assets/img/teachers/gustavo-fretta.jpeg';
+    import HenriqueImg  from '../../assets/img/teachers/henrique.jpeg';
+    import JoaoImg      from '../../assets/img/teachers/joao-paulo.jpeg';
+    import JucimaraImg  from '../../assets/img/teachers/jucimara.jpeg';
+    import MaisaImg     from '../../assets/img/teachers/maisa.jpeg';
+    import MozerImg     from '../../assets/img/teachers/mozer.jpeg';
+    import PauloImg     from '../../assets/img/teachers/paulo-gomes.jpeg';
+    import RamiroImg    from '../../assets/img/teachers/ramiro.jpeg';
+    import TammyImg     from '../../assets/img/teachers/tammy.jpeg';
+    import VitoriaImg   from '../../assets/img/teachers/vitoria.jpeg';
+    import TeachersData from '../../data/teachers.json'
 
     type TeacherData = { imgUrl: string, name: string, description: string, bgPos?: string };
 

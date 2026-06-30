@@ -31,7 +31,7 @@ import CTAButton from '../common/CTAButton.vue';
             <p class="md:text-lg leading-tight">Capacitação para profissionais que desejam transformar a vida dos seus pacientes com mais <strong class="font-semibold">precisão, segurança e profundidade clínica</strong></p>
         </div>
 
-        <CTAButton />
+        <CTAButton class="self-start" />
 
         <div class="continue-badge flex flex-col items-center justify-center gap-1 pb-2 text-white">
             <div class="continue-bg bg-white/20 rounded-full h-9 p-1">

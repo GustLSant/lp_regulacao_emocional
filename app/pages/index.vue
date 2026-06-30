@@ -15,7 +15,7 @@
 		ogDescription: 'Regulação Emocional na Prática Clínica  —  Afirmativa Editora',
 		ogType: 'website',
 		ogUrl: 'https://regemocional.com.br/',
-		// ogImage: 'https://regemocional.com.br/images/preview.jpg',
+		ogImage: 'https://regemocional.com.br/preview.jpeg',
 	})
 </script>
 

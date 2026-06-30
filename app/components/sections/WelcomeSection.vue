@@ -33,7 +33,7 @@ import CTAButton from '../common/CTAButton.vue';
 
         <CTAButton class="self-start" />
 
-        <div class="continue-badge flex flex-col items-center justify-center gap-1 pb-2 text-white">
+        <div class="continue-badge flex flex-col items-center justify-center gap-1 pb-2 text-white pointer-events-none">
             <div class="continue-bg bg-white/20 rounded-full h-9 p-1">
                 <Icon name="mdi:chevron-down" size="28" class="continue-arrow" />
             </div>

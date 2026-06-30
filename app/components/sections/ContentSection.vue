@@ -20,7 +20,7 @@
     ]
 
     const modules_2 = [
-        'Grupo de Habilidades em Regulação Emocional',
+        'Terapia do Esquema Emocional',
         'Habilidades em Regulação Emocional',
         'Intervenção transdiagnóstica',
         'Manejo de Crises',

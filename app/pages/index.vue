@@ -6,6 +6,17 @@
 	import ContentSection from '../components/sections/ContentSection.vue';
 	import FaqSection from '../components/sections/FaqSection.vue';
 	import Footer from '../components/sections/Footer.vue';
+
+	useSeoMeta({
+		title: 'Regulação Emocional - Curso Completo',
+		description: 'Regulação Emocional na Prática Clínica  —  Afirmativa Editora',
+
+		ogTitle: 'Regulação Emocional - Curso Completo',
+		ogDescription: 'Regulação Emocional na Prática Clínica  —  Afirmativa Editora',
+		ogType: 'website',
+		ogUrl: 'https://regemocional.com.br/',
+		// ogImage: 'https://regemocional.com.br/images/preview.jpg',
+	})
 </script>
 
 
